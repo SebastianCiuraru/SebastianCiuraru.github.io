@@ -1,2 +1,2 @@
-# SebastianCiuraru.github.io
+# SebastianCiuraru
 ## Progetto Front End
