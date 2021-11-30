@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
     margin-right: auto;
 }
 
+
+
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-1 { margin-bottom: 20px; }
 .tm-mb-2 { margin-bottom: 40px; }
@@ -81,6 +83,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .text-center { text-align: center; }
 
 .tm-site-header {
+  
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,6 +92,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 }
 
 .tm-site-name-container {
+  border-radius: 10px;
     width: 29.752%;
     min-width: 300px;
     margin-right: 20px;
@@ -100,6 +104,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 }
 
 .tm-nav-container {
+  border-radius: 10px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -109,6 +114,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 }
 
 .tm-nav-item {
+  border-radius: 10px;
   list-style: none;
   display: inline-block;
   width: 145px;
@@ -150,6 +156,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 }
 
 .tm-nav-link {
+  border-radius: 10px;
   color: #666;
   width: 100%;
   height: 100%;
@@ -162,12 +169,14 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 
 .tm-nav-item.current .tm-nav-link,
 .tm-nav-link:hover {
+  border-radius: 10px;
   color: white;
   background-color: #1C7293;
 }
 
 @media (max-width: 1033px) {
   .tm-nav-item {
+    border-radius: 10px;
     width: 120px;
     height: 120px;
   }
@@ -193,6 +202,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-row { display: flex; }
 
 .tm-btn {
+  border-radius: 10px;
   display: inline-block;
   padding: 15px 40px;
   font-size: 1.1rem;
@@ -210,6 +220,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-icon { width: 33.3334%; }
 
 .tm-icon-inner {
+  
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -475,6 +486,8 @@ figure.effect-bubba:hover p {
 
 /* Contact */
 .tm-contact-title {
+  
+  border-radius: 10px;
   padding-top: 55px;
   padding-bottom: 60px;
   text-align: center;
@@ -483,6 +496,7 @@ figure.effect-bubba:hover p {
 #contact { padding-bottom: 40px; }
 
 .tm-contact-main {
+  
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -508,6 +522,7 @@ figure.effect-bubba:hover p {
 .contact-info-outer { width: 28%; }
 
 .contact-form-outer {
+  
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -654,4 +669,8 @@ button:hover { cursor: pointer; }
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.border { 
+  border-radius: 15px;
 }
